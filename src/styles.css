@@ -1,0 +1,13 @@
+.main {
+    width: 100%;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: aqua;
+    width: 85%
+}
