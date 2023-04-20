@@ -103,3 +103,8 @@ a {
   margin-left: 16px;
   padding-top: 4px;
 }
+.grid-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
