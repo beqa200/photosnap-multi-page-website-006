@@ -9,9 +9,8 @@
 
 header {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    background-color: aqua;
+    align-items: center;
     width: 85%;
     height: 75px;
 }
@@ -28,8 +27,18 @@ nav ul {
 }
 
 nav li {
-    margin: 0 10px;
+    margin: 0 37px;
     cursor: pointer;
+    font-family: DMSans-Bold;
+}
+
+nav li a {
+    color: black;
+    letter-spacing: 2px;
+}
+
+nav li a:hover {
+    opacity: 50%;
 }
 
 header button {
@@ -37,7 +46,8 @@ header button {
     background-color: black;
     height: 40px;
     width: 158px;
-    font-family: DMSans-Regular;
+    font-family: DMSans-Bold;
+    letter-spacing: 2px;
 }
 
 header button:hover {
