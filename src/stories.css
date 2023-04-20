@@ -93,9 +93,13 @@ a {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 2px;
+  text-decoration: none;
 }
 .small-arrow {
   width: 42px;
   height: 12px;
-  fill: #ffffff;
+  filter: invert(98%) sepia(0%) saturate(300%) hue-rotate(318deg)
+    brightness(118%) contrast(100%);
+  margin-left: 16px;
+  padding-top: 4px;
 }
