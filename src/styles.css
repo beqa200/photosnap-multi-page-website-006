@@ -111,6 +111,8 @@ h1 {
 .invite {
   align-items: center;
   display: flex;
+  justify-content: space-between;
+  width: 67%;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -131,11 +133,10 @@ h1 {
     #5a77ff 83.33%
   );
 }
-.arrow {
-  padding-left: 18px;
-}
+
 .arrow-white {
   filter: brightness(0) invert(1);
+  transform: translateX(-35px);
 }
 /*///////////*/
 .design {
@@ -149,9 +150,6 @@ h1 {
   background: #ffffff;
 }
 
-.arrow-black {
-  padding-left: 26px;
-}
 /*////////*/
 .img-first {
   position: relative;
@@ -195,19 +193,20 @@ h3 {
 
 hr {
   position: absolute;
-  width: 310px;
+  width: 84%;
   height: 1px;
   background: #ffffff;
   transform: translate(33px, -82px);
 }
 .arrow-move {
+  display: flex;
+  justify-content: space-between;
   position: absolute;
+  width: 84%;
   transform: translate(33px, -63px);
   z-index: 1;
 }
-.big-line {
-  padding-left: 175px;
-}
+
 /*/////////////*/
 .media {
   display: flex;
@@ -238,3 +237,8 @@ hr {
 .center-text {
   text-align: center;
 }
+/*////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////
+                                 @media (min-width: 768px) 
+///////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////*/
