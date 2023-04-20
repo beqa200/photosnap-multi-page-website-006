@@ -8,6 +8,38 @@
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: aqua;
-    width: 85%
+    width: 85%;
+    height: 75px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header button {
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 158px;
+}
+
+header button:hover {
+    color: black;
+    background-color: #DFDFDF
 }
