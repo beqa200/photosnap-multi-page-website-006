@@ -37,6 +37,7 @@ header button {
     background-color: black;
     height: 40px;
     width: 158px;
+    font-family: DMSans-Regular;
 }
 
 header button:hover {
