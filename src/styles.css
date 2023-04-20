@@ -30,6 +30,9 @@ body {
 .wt-color {
   color: #ffffff;
 }
+.bl-color {
+  color: #000000;
+}
 
 h1 {
   font-family: "DM Sans";
@@ -47,7 +50,7 @@ h1 {
   font-size: 15px;
   line-height: 25px;
   mix-blend-mode: normal;
-  width: 318px;
+  width: 317px;
   opacity: 0.6;
 }
 .invite {
@@ -77,9 +80,7 @@ h1 {
   padding: 28px;
   background: #ffffff;
 }
-.bl-color {
-  color: #000000;
-}
+
 .arrow-black {
   padding-left: 26px;
 }
@@ -138,4 +139,27 @@ hr {
 }
 .big-line {
   padding-left: 175px;
+}
+/*/////////////*/
+.responsiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 375px;
+  background: #f2f2f2;
+}
+.responsiv-text {
+  margin-top: 44px;
+  margin-bottom: 16px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+}
+.center-text {
+  text-align: center;
 }
