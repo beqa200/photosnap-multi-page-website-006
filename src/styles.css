@@ -24,10 +24,10 @@ body {
   order: 2;
   background: #000000;
 }
-.wt-color {
+.white-color {
   color: #ffffff;
 }
-.bl-color {
+.black-color {
   color: #000000;
 }
 
@@ -117,7 +117,7 @@ h1 {
 
 h3 {
   position: absolute;
-  transform: translate(33px, -150px);
+  transform: translate(33px, -143px);
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -132,7 +132,7 @@ h3 {
   font-size: 13px;
   line-height: 17px;
   position: absolute;
-  transform: translate(33px, -125px);
+  transform: translate(33px, -115px);
   z-index: 1;
 }
 
@@ -142,11 +142,11 @@ hr {
   width: 310px;
   height: 1px;
   background: #ffffff;
-  transform: translate(33px, -91px);
+  transform: translate(33px, -82px);
 }
 .arrow-move {
   position: absolute;
-  transform: translate(33px, -70px);
+  transform: translate(33px, -63px);
   z-index: 1;
 }
 .big-line {
