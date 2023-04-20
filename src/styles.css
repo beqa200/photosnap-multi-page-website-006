@@ -12,13 +12,10 @@ body {
 .first-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .visual {
   display: flex;
   flex-direction: column;
-  align-items: start;
   justify-content: space-evenly;
   position: relative;
   height: 419px;
@@ -53,6 +50,7 @@ h1 {
   width: 317px;
   opacity: 0.6;
 }
+
 .invite {
   align-items: center;
   display: flex;
@@ -62,6 +60,19 @@ h1 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 2px;
+}
+.rectangel {
+  position: absolute;
+  top: 0;
+  left: 33px;
+  width: 128px;
+  height: 6px;
+  background: linear-gradient(
+    2.57deg,
+    #ffc593 0%,
+    #bc7198 43.29%,
+    #5a77ff 83.33%
+  );
 }
 .arrow {
   padding-left: 18px;
@@ -127,6 +138,7 @@ h3 {
 
 hr {
   position: absolute;
+  border: none;
   width: 310px;
   height: 1px;
   background: #ffffff;
@@ -141,18 +153,25 @@ hr {
   padding-left: 175px;
 }
 /*/////////////*/
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  gap: 56px;
+  background: #f2f2f2;
+  width: 375px;
+}
+
 .responsiv {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 350px;
-  width: 375px;
-  background: #f2f2f2;
+  gap: 16px;
+  width: 310px;
 }
 .responsiv-text {
-  margin-top: 44px;
-  margin-bottom: 16px;
+  margin-top: 32px;
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
