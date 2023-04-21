@@ -103,3 +103,80 @@ a {
   margin-left: 16px;
   padding-top: 4px;
 }
+.grid-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-image {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+.main-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.0001) 0.27%,
+    rgba(0, 0, 0, 0.661222) 100%
+  );
+}
+.image-text {
+  position: absolute;
+  top: 60%;
+  left: 40px;
+  color: #ffffff;
+}
+.full-name,
+p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  padding-bottom: 4px;
+}
+h4 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+.full-name {
+  padding-bottom: 16px;
+}
+hr {
+  width: 291.67px;
+  height: 1px;
+}
+.button-element {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+button {
+  background: none;
+  border-style: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+.arrow {
+  width: 42px;
+  height: 12px;
+  filter: invert(98%) sepia(0%) saturate(300%) hue-rotate(318deg)
+    brightness(118%) contrast(100%);
+}
