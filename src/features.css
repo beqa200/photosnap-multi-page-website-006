@@ -1,3 +1,7 @@
+.features-mob {
+  width: 100%;
+}
+
 .features-tab {
   display: none;
 }
@@ -43,6 +47,9 @@
   position: absolute;
   transform: translate(17px, -80px);
 }
+.mob-beta {
+  width: 100%;
+}
 .tab-beta {
   display: none;
 }
@@ -83,6 +90,7 @@
   }
   .tab-beta {
     display: block;
+    width: 100%;
   }
   .beta {
     transform: translate(39px, -204px);
