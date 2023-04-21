@@ -217,7 +217,7 @@ hr {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   padding-top: 80px;
   gap: 56px;
   background: #f2f2f2;

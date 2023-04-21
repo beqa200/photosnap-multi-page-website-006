@@ -1,6 +1,9 @@
 .features-tab {
   display: none;
 }
+.features-desk {
+  display: none;
+}
 
 .box {
   display: flex;
@@ -29,6 +32,7 @@
 }
 .beta-box {
   position: relative;
+  width: 100%;
 }
 .beta {
   position: absolute;
@@ -40,6 +44,9 @@
   transform: translate(17px, -80px);
 }
 .tab-beta {
+  display: none;
+}
+.desk-beta {
   display: none;
 }
 /*////////////////////////////////////////////////////////////////////////////////////////////////
@@ -78,13 +85,12 @@
     display: block;
   }
   .beta {
-    position: absolute;
     transform: translate(39px, -204px);
     width: 46%;
   }
   .beta-arrow {
     right: 0;
-    width: 24%;
+    width: 200px;
     transform: translate(-40px, -157px);
   }
 }
@@ -94,3 +100,28 @@
                                  @media (min-width: 1440px) 
 ///////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 1440px) {
+  .features-tab {
+    display: none;
+  }
+  .features-desk {
+    display: block;
+  }
+  .tab-beta {
+    display: none;
+  }
+  .desk-beta {
+    display: block;
+    width: 100%;
+  }
+  .beta {
+    transform: translate(150px, -210px);
+    width: 27%;
+  }
+  .beta-arrow {
+    right: 0;
+
+    width: 200px;
+    transform: translate(-150px, -157px);
+  }
+}
