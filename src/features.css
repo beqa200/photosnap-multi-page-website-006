@@ -1,41 +1,20 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.features-tab {
+  display: none;
 }
 
 .box {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   position: relative;
   gap: 16px;
   padding: 72px 29px 72px 28px;
-  width: 375px;
+  width: 100%;
   height: auto;
   background: #000000;
 }
-h1 {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-  letter-spacing: 3.33333px;
-  text-transform: uppercase;
-}
-.text {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 25px;
 
-  mix-blend-mode: normal;
-  opacity: 0.6;
-}
 .hr {
   position: absolute;
   top: 0;
@@ -54,8 +33,64 @@ h1 {
 .beta {
   position: absolute;
   transform: translate(17px, -223px);
+  width: 91%;
 }
 .beta-arrow {
   position: absolute;
   transform: translate(17px, -80px);
 }
+.tab-beta {
+  display: none;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////
+                                 @media (min-width: 768px) 
+///////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 760px) {
+  .features-mob {
+    display: none;
+  }
+  .features-tab {
+    display: block;
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+  .box {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    height: 490px;
+  }
+  .hr {
+    left: 0;
+    width: 6px;
+    height: 144px;
+    position: relative;
+  }
+  .mob-beta {
+    display: none;
+  }
+  .tab-beta {
+    display: block;
+  }
+  .beta {
+    position: absolute;
+    transform: translate(39px, -204px);
+    width: 46%;
+  }
+  .beta-arrow {
+    right: 0;
+    width: 24%;
+    transform: translate(-40px, -157px);
+  }
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////
+                                 @media (min-width: 1440px) 
+///////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////*/

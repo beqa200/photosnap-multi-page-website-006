@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #ffffff;
 }
 
 .main {
@@ -214,12 +215,13 @@ hr {
 /*/////////////*/
 .media {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   padding-top: 80px;
   gap: 56px;
   background: #f2f2f2;
-  width: 375px;
+  width: 100%;
 }
 
 .responsiv {
