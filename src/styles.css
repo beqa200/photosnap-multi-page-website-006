@@ -73,7 +73,8 @@ header button:hover {
 .visual {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 16px;
   position: relative;
   height: 419px;
   width: 375px;
@@ -104,8 +105,9 @@ h1 {
   font-size: 15px;
   line-height: 25px;
   mix-blend-mode: normal;
-  width: 317px;
+  width: 275px;
   opacity: 0.6;
+  margin-bottom: 3%;
 }
 
 .invite {
@@ -119,6 +121,9 @@ h1 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 2px;
+}
+.are {
+  padding-right: 30px;
 }
 .rectangel {
   position: absolute;
@@ -136,7 +141,6 @@ h1 {
 
 .arrow-white {
   filter: brightness(0) invert(1);
-  transform: translateX(-35px);
 }
 /*///////////*/
 .design {
@@ -237,8 +241,3 @@ hr {
 .center-text {
   text-align: center;
 }
-/*////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////
-                                 @media (min-width: 768px) 
-///////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////*/
