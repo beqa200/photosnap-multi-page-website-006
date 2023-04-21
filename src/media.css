@@ -5,10 +5,23 @@
 
     nav {
         display: none;
+        padding: 0px 50px;
     }
 
     header button {
         display: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        width: 100%;
+        border-bottom: 1px solid black;
+    }
+
+    nav ul li:nth-child(2) {
+        margin: 20px 0px;
     }
 
     .burger-menu {

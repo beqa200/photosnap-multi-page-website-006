@@ -94,6 +94,15 @@ header button:hover {
     transform: rotate(-45deg);
 }
 
+.is-active {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 60px;
+    background-color: white;
+}
+
 .first-section {
     display: flex;
     flex-direction: column;
