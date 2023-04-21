@@ -66,6 +66,13 @@ header button:hover {
   color: black;
   background-color: #dfdfdf;
 }
+.features-tab {
+  display: none;
+}
+.features-desk {
+  display: none;
+}
+
 .box {
   display: flex;
   flex-direction: column;
@@ -101,18 +108,7 @@ header button:hover {
 .features-mob {
   width: 100%;
 }
-/**/
 
-.visual {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 16px;
-  position: relative;
-  height: 419px;
-  padding: 28px;
-  background: #000000;
-}
 .white-color {
   color: #ffffff;
 }
@@ -141,10 +137,8 @@ h1 {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  width: 67%;
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: 700;
+  width: 75%;
+  font-family: DMSans-Bold;
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 2px;
@@ -170,10 +164,18 @@ h1 {
 }
 
 /*////////*/
+.img-box {
+  width: 100%;
+}
+
 .img-first {
   position: relative;
-  display: inline-block;
-  height: 375px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
 }
 .img-first:after {
   content: "";
@@ -191,23 +193,21 @@ h1 {
 
 h3 {
   position: absolute;
-  transform: translate(33px, -143px);
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
+  font-family: DMSans-Bold;
   font-size: 18px;
   line-height: 25px;
   z-index: 1;
+  left: 33px;
+  bottom: 125px;
 }
 .name {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
+  font-family: DMSans-Medium;
   font-size: 13px;
   line-height: 17px;
   position: absolute;
-  transform: translate(33px, -115px);
   z-index: 1;
+  left: 33px;
+  bottom: 105px;
 }
 
 hr {
@@ -215,14 +215,16 @@ hr {
   width: 84%;
   height: 1px;
   background: #ffffff;
-  transform: translate(33px, -82px);
+  left: 33px;
+  bottom: 88px;
 }
 .arrow-move {
   display: flex;
   justify-content: space-between;
   position: absolute;
   width: 84%;
-  transform: translate(33px, -63px);
+  left: 33px;
+  bottom: 50px;
   z-index: 1;
 }
 
@@ -247,9 +249,7 @@ hr {
 }
 .responsiv-text {
   margin-top: 32px;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
+  font-family: DMSans-Bold;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
