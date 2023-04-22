@@ -75,6 +75,9 @@ header button:hover {
 .stories-tab {
   display: none;
 }
+.stories-desk {
+  display: none;
+}
 
 .box {
   display: flex;
@@ -337,6 +340,18 @@ hr {
     height: auto;
 
     flex-wrap: wrap;
+  }
+  h3 {
+    bottom: 100px;
+  }
+  .name {
+    bottom: 80px;
+  }
+  hr {
+    bottom: 70px;
+  }
+  .arrow-move {
+    bottom: 45px;
   }
   .text {
     width: 387px;
