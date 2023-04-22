@@ -260,6 +260,9 @@ hr {
 .center-text {
   text-align: center;
 }
+.story-line {
+  width: 100%;
+}
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////
@@ -294,7 +297,7 @@ hr {
     padding: 0;
   }
   .box-vision {
-    padding-right: 15%;
+    padding-right: 5%;
     gap: 21px;
   }
   .hr {
@@ -308,5 +311,30 @@ hr {
   }
   .invite {
     width: 52%;
+  }
+  .designed {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 54px;
+  }
+
+  .img-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .img-first {
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+
+    flex-wrap: wrap;
   }
 }
