@@ -72,6 +72,9 @@ header button:hover {
 .features-desk {
   display: none;
 }
+.stories-tab {
+  display: none;
+}
 
 .box {
   display: flex;
@@ -256,4 +259,54 @@ hr {
 }
 .center-text {
   text-align: center;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////
+                                 @media (min-width: 768px) 
+///////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width: 768px) {
+  .features-mob {
+    display: none;
+  }
+  .features-tab {
+    display: block;
+    position: relative;
+    right: 0;
+  }
+  .stories-tab {
+    display: block;
+  }
+  .box {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .design {
+    display: flex;
+    flex-direction: row;
+    align-items: inherit;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .box-vision {
+    padding-right: 15%;
+    gap: 21px;
+  }
+  .hr {
+    left: 0;
+    width: 6px;
+    height: 144px;
+    position: relative;
+  }
+  .text {
+    width: 400px;
+  }
+  .invite {
+    width: 52%;
+  }
 }
