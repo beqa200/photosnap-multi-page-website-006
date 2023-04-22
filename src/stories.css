@@ -180,3 +180,7 @@ button {
   filter: invert(98%) sepia(0%) saturate(300%) hue-rotate(318deg)
     brightness(118%) contrast(100%);
 }
+.test {
+  border-bottom: 1px solid #ffffff;
+  width: 296px;
+}
