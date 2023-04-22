@@ -234,9 +234,9 @@ hr {
 /*/////////////*/
 .media {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   padding-top: 80px;
   gap: 56px;
   background: #f2f2f2;
@@ -259,6 +259,7 @@ hr {
 }
 .center-text {
   text-align: center;
+  width: 310px;
 }
 .story-line {
   width: 100%;
@@ -336,5 +337,48 @@ hr {
     height: auto;
 
     flex-wrap: wrap;
+  }
+  .text {
+    width: 387px;
+  }
+  .center-text {
+    width: 457px;
+  }
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////
+                                 @media (min-width: 1440px) 
+///////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 1440px) {
+  .features-tab {
+    display: none;
+  }
+  .features-desk {
+    display: block;
+  }
+  .stories-tab {
+    display: none;
+  }
+  .stories-desk {
+    display: block;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .img-box {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+  }
+  .media {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .center-text {
+    text-align: center;
+    width: 350px;
   }
 }
