@@ -56,6 +56,20 @@
 .desk-beta {
   display: none;
 }
+.line-text {
+  width: 310px;
+}
+.media-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 80px;
+  gap: 56px;
+  background: #f2f2f2;
+  width: 100%;
+  padding: 10%;
+}
 /*////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////
                                  @media (min-width: 768px) 
@@ -98,6 +112,10 @@
     width: 200px;
     transform: translate(-40px, -157px);
   }
+
+  .line-text {
+    width: 340px;
+  }
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////
@@ -128,5 +146,8 @@
 
     width: 200px;
     transform: translate(-150px, -157px);
+  }
+  .line-text {
+    width: 350px;
   }
 }
