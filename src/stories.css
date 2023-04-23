@@ -63,6 +63,15 @@ time {
   color: #ffffff;
   opacity: 0.75;
 }
+span {
+  color: #ffffff;
+  padding-left: 10px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+}
 .name {
   font-family: "DM Sans";
   font-style: normal;
@@ -182,5 +191,5 @@ button {
 }
 .test {
   border-bottom: 1px solid #ffffff;
-  width: 296px;
+  width: 291.67px;
 }
