@@ -1,3 +1,7 @@
+.features-mob {
+  width: 100%;
+}
+
 .features-tab {
   display: none;
 }
@@ -43,11 +47,28 @@
   position: absolute;
   transform: translate(17px, -80px);
 }
+.mob-beta {
+  width: 100%;
+}
 .tab-beta {
   display: none;
 }
 .desk-beta {
   display: none;
+}
+.line-text {
+  width: 310px;
+}
+.media-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 80px;
+  gap: 56px;
+  background: #f2f2f2;
+  width: 100%;
+  padding: 10%;
 }
 /*////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////
@@ -60,9 +81,6 @@
   }
   .features-tab {
     display: block;
-    position: relative;
-    right: 0;
-    top: 0;
   }
   .box {
     display: flex;
@@ -83,6 +101,7 @@
   }
   .tab-beta {
     display: block;
+    width: 100%;
   }
   .beta {
     transform: translate(39px, -204px);
@@ -92,6 +111,10 @@
     right: 0;
     width: 200px;
     transform: translate(-40px, -157px);
+  }
+
+  .line-text {
+    width: 340px;
   }
 }
 
@@ -123,5 +146,8 @@
 
     width: 200px;
     transform: translate(-150px, -157px);
+  }
+  .line-text {
+    width: 350px;
   }
 }
