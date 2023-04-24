@@ -206,9 +206,11 @@ footer {
   padding-top: 56px;
 }
 .footer-logo {
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  width: 142.04px;
-  filter: brightness(100%) invert(100%);
+  justify-content: space-between;
+  gap: 8px;
 }
 .copy-right,
 li {
@@ -234,22 +236,17 @@ li {
   padding-top: 52px;
   gap: 10px;
   text-transform: uppercase;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
+  font-family: DMSans-Medium;
   line-height: 16px;
   margin-right: 10px;
+  text-align: center;
 }
 .invitation {
   padding-top: 116px;
   margin-right: 40px;
 }
 .copy-right {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
+  font-family: DMSans-Regular;
   line-height: 20px;
   text-align: center;
   opacity: 0.5;
