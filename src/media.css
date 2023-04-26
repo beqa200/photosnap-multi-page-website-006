@@ -1,0 +1,48 @@
+@media screen and (max-width: 1000px) {
+    header {
+        padding: 0 4%;
+    }
+    .features-box {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+.test{
+    order: 2;
+}
+    nav {
+        display: none;
+        top: 75px;
+        background-color: white;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav ul li:nth-child(2) {
+        margin: 20px 0px
+    }
+
+    .burger-menu-btn {
+        display: block !important;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .burger-menu-icon {
+        display: block;
+    }
+
+    footer{
+        align-items: center;
+        flex-direction: column;
+    }
+    .section{
+        justify-content: space-evenly;
+    }
+}
