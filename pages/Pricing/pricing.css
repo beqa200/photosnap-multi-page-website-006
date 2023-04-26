@@ -57,15 +57,18 @@ section {
   height: 407px;
   position: relative;
 }
+
 .sec-box {
   background: #000000;
+  color: #ffffff;
+}
+.text {
+  font-family: DMSans-Regular;
+  opacity: 0.6;
 }
 h2 {
   font-family: DMSans-Bold;
-  font-size: 24px;
   line-height: 25px;
-  text-align: center;
-  color: #000000;
 }
 .basic {
   text-align: center;
