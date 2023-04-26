@@ -1,0 +1,36 @@
+@font-face {
+  font-family: DMSans-Regular;
+  src: url(../assets/fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: DMSans-Medium;
+  src: url(../assets/fonts/DMSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: DMSans-Bold;
+  src: url(../assets/fonts/DMSans-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+hr {
+  border: none;
+}
