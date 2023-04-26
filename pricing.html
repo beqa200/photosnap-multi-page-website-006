@@ -1,23 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="stylesheet" href="./src/reset.css">
-    <link rel="stylesheet" href="./src/styles.css">
-    <link rel="stylesheet" href="./src/pricing.css">
-    <link rel="stylesheet" href="./src/fonts.css">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="./src/pricing.css" />
+    <link rel="stylesheet" href="./src/fonts.css" />
 
     <title>Frontend Mentor | Photosnap Website Challenge</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <div class="range-box">
+      <div class="year-box">
+        <p class="monthly">Monthly</p>
 
-
-
-</body>
-
+        <input id="range" type="range" name="range" min="0" max="1" />
+        <p class="year monthly">Yearly</p>
+      </div>
+      <section>
+        <div class="first-box">
+          <h2>Basic</h2>
+          <p class="text basic">
+            Includes basic usage of our platform. Recommended for new and
+            aspiring photographers.
+          </p>
+          <div class="month">
+            <p class="price">$19.00</p>
+            <p class="per">per month</p>
+          </div>
+          <button class="btn">PICK PLAN</button>
+        </div>
+        <div class="first-box sec-box">
+          <h2 class="white-color">Pro</h2>
+          <p class="text basic white-color">
+            More advanced features available. Recommended for photography
+            veterans and professionals.
+          </p>
+          <div class="month">
+            <p class="price white-color">$39.00</p>
+            <p class="per white-color">per month</p>
+          </div>
+          <button class="btn btn-box">PICK PLAN</button>
+        </div>
+        <div class="first-box">
+          <h2>Business</h2>
+          <p class="text basic">
+            Additional features available such as more detailed metrics.
+            Recommended for business owners.
+          </p>
+          <div class="month">
+            <p class="price">$99.00</p>
+            <p class="per">per month</p>
+          </div>
+          <button class="btn">PICK PLAN</button>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>
