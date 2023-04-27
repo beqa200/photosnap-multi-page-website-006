@@ -189,4 +189,19 @@
 ///////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1440px) {
+  .features-tab {
+    display: none;
+  }
+  .features-desk {
+    display: block;
+  }
+  .beta-box {
+    background-image: url(../../assets/shared/desktop/bg-beta.jpg);
+    justify-content: space-around;
+    gap: 20%;
+  }
+  .beta-box h1 {
+    font-size: 40px;
+    width: 30%;
+  }
 }
