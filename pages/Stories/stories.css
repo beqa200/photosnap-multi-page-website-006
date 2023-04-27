@@ -66,6 +66,11 @@ a {
   letter-spacing: 2px;
   color: #ffffff;
 }
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.5s;
+}
 .arrow {
   width: 42px;
   height: 12px;
