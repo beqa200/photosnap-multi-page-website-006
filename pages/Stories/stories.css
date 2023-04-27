@@ -146,7 +146,7 @@ a:hover {
   justify-content: space-between;
 }
 a {
-  font-family: DMSans-Medium;
+  font-family: DMSans-Regular;
   letter-spacing: 2px;
   font-size: 12px;
   line-height: 16px;
@@ -157,4 +157,52 @@ a {
   filter: invert(98%) sepia(0%) saturate(300%) hue-rotate(318deg)
     brightness(118%) contrast(100%);
   padding-top: 4px;
+}
+.tablet-pictures {
+  display: none;
+}
+/* ------tablet-version------- */
+@media (min-width: 768px) {
+  .mobile-version {
+    display: none;
+  }
+  .mobile-pictures {
+    display: none;
+  }
+  .first-section {
+    background-image: url(../../assets/stories/tablet/moon-of-appalacia.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+  }
+  .main-contant {
+    background-color: transparent;
+    padding-top: 17%;
+    margin-left: 30px;
+  }
+  .flex-items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .tablet-pictures {
+    display: block;
+    width: 384px;
+    height: 500px;
+    box-sizing: border-box;
+  }
+  .story-box {
+    width: 50%;
+  }
+  .text-items {
+    margin-top: 28%;
+    padding-left: 42px;
+  }
+  .text-items h4 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .line {
+    width: 298px;
+  }
 }
