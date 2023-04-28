@@ -112,7 +112,7 @@ a:hover {
 .text-items {
   position: absolute;
   padding-left: 41.65px;
-  margin-top: 50%;
+  margin-top: 45%;
   color: #ffffff;
   z-index: 1;
 }
@@ -223,5 +223,8 @@ a {
   }
   .story-box {
     width: fit-content;
+  }
+  .text-items {
+    margin-top: 70%;
   }
 }
