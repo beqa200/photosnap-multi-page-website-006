@@ -2,16 +2,17 @@
     header {
         padding: 0 4%;
     }
+
     .features-box {
         flex-direction: column;
     }
 
+    .card {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 700px) {
-.test{
-    order: 2;
-}
     nav {
         display: none;
         top: 75px;
@@ -38,11 +39,25 @@
         display: block;
     }
 
-    footer{
+    footer {
         align-items: center;
         flex-direction: column;
     }
-    .section{
+
+    .section {
         justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        width: 100%;
+        height: auto;
+    }
+
+    .card img {
+        min-height: 100%;
+        height: 375px;
+        object-fit: cover;
     }
 }
