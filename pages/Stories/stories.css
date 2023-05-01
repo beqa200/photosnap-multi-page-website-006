@@ -9,6 +9,7 @@
   width: 100%;
   min-height: 650px;
   object-fit: cover;
+  display: block;
 }
 
 .bener-text {
