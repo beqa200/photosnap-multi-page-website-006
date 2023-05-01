@@ -47,6 +47,23 @@
     .section {
         justify-content: space-evenly;
     }
+
+    .bener-text {
+        padding: 20px 30px;
+        position: static;
+        height: 500px;
+        min-width: 100%;
+        background-color: black;
+    }
+
+    .bener-text h1 {
+        font-size: 30px;
+    }
+
+    .baner-img {
+        width: 100%;
+        min-height: 310px;
+    }
 }
 
 @media screen and (max-width: 420px) {
