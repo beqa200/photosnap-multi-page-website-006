@@ -1,280 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="../../assets/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32x32.png" />
     <link rel="stylesheet" href="../../common.css" />
     <link rel="stylesheet" href="./stories.css" />
+    <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="../media.css" />
 
     <title>Frontend Mentor | Photosnap Website Challenge</title>
-  </head>
+</head>
 
-  <body>
-    <div class="first-section"> 
-        <img class="mobile-version"
-                src="../../assets/stories/mobile/moon-of-appalacia.jpg"
-                alt="Image of moon on display"
-              />
-              <img class="desktop-version" src="../../assets/stories/desktop/moon-of-appalacia.jpg"/>
-     <div class="main-contant">
-                <p class="featured-story">LAST MONTH'S FEATURED STORY</p>
-                <h1>HAZY FULL</br> MOON OF APPALACHIA</h1>
-                <div class="date-and-author"> 
-                <span class="date">March 2nd 2020</span>
-                <p class="author">by John Appleseed</p>
-              </div>
-              <p class="paragraph">The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.</p>
-              <a href="index.html" class="invite-link invite-link-black">READ THE STORY  <img class="arrow" src="../../assets/shared/desktop/arrow.svg"/></a>
-       </div>
-     </div>
-      <section class="flex-items">
-      <div class="story-box"> 
-       <img class="mobile-pictures" src="../../assets/stories/mobile/mountains.jpg"/>
-       <img class="tablet-pictures" src="../../assets/stories/desktop/mountains.jpg"/>
-      <div class="text-items">
-            <p class="time">April 16th 2020</p>
-            <h4>The Mountains</h4>
-            <p class="list-of-authors">by John Appleseed</p>
-           <div class="line"> 
-          </div>
-          <div class="link"> 
-          <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-          <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
+<body>
+    <div class="main">
+        <div class="grid">
+            <header>
+                <div class="logo">
+                    <img src="../../assets/shared/desktop/logo.svg" alt="logo" />
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="./pages/Stories/stories.html">STORIES</a>
+                        </li>
+                        <li>
+                            <a href="./pages/Features/features.html">FEATURES</a>
+                        </li>
+                        <li>
+                            <a href="./pages/Pricing/pricing.html">PRICING</a>
+                        </li>
+                        <li>
+                            <div class="hr"></div>
+                        </li>
+                        <li>
+                            <button class="burger-menu-btn">GET AN INVITE</button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="burger-menu-icon">
+                    <span></span>
+                    <span></span>
+                </div>
+                <button class="nav-btn">GET AN INVITE</button>
+            </header>
+
+            <div class="baner">
+                <img src="../../assets/stories/desktop/moon-of-appalacia.jpg" alt="baner" class="baner-img">
+
+                <div class="bener-text">
+                    <p>LAST MONTH’S FEATURED STORY</p>
+                    <h1>HAZY FULL MOON OF APPALACHIA</h1>
+                    <span>March 2nd 2020 by John Appleseed</span>
+                    <p>The dissected plateau area, while not actually made up of geological mountains, is popularly called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not high, the terrain is extremely rugged.</p>
+                    <div class="card-footer">
+                        <a href="" class="story-link">READ THE STORY</a>
+                        <svg stroke="white" width="43" height="14">
+                        <path d="M0 7h41.864M35.428 1l6 6-6 6"></path>
+                  </svg>
+                    </div>
+                </div>
+
+            </div>
+
+            <footer>
+                <div class="section">
+                    <div>
+                        <img src="../../assets/shared/desktop/logo-white.svg" alt="logo" />
+                    </div>
+                    <div class="icon-group">
+                        <span class="fb"></span>
+                        <span class="you"></span>
+                        <span class="twi"></span>
+                        <span class="pin"></span>
+                        <span class="ins"></span>
+                    </div>
+                </div>
+                <div class="section">
+                    <div>
+                        <a href="#">GET AN INVITE</a>
+                        <svg stroke="white" width="43" height="14">
+              <path d="M0 7h41.864M35.428 1l6 6-6 6"></path>
+            </svg>
+                    </div>
+                    <div>
+                        <p>Copyright 2019. All Rights Reserved</p>
+                    </div>
+                </div>
+            </footer>
         </div>
-      </div>
     </div>
-    <div class="story-box"> 
-      <img class="mobile-pictures" src="../../assets/stories/mobile/cityscapes.jpg"/>
-      <img class="tablet-pictures" src="../../assets/stories/desktop/cityscapes.jpg"/>
-     <div class="text-items">
-           <p class="time">April 14th 2020</p>
-           <h4>Sunset Cityscapes</h4>
-           <p class="list-of-authors">by Benjamin Cruz</p>
-          <div class="line"> 
-         </div>
-         <div class="link"> 
-         <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-         <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-       </div>
-     </div>
-   </div>
-   <div class="story-box"> 
-    <img class="mobile-pictures" src="../../assets/stories/mobile/18-days-voyage.jpg"/>
-    <img class="tablet-pictures" src="../../assets/stories/desktop/18-days-voyage.jpg"/>
-   <div class="text-items">
-         <p class="time">April 11th 2020</p>
-         <h4>18 Days Voyage</h4>
-         <p class="list-of-authors">by Alexei Borodin</p>
-        <div class="line"> 
-       </div>
-       <div class="link"> 
-       <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-       <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-     </div>
-   </div>
- </div>
- <div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/architecturals.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/architecturals.jpg"/>
- <div class="text-items">
-       <p class="time">April 9th 2020</p>
-       <h4>Architecturals</h4>
-       <p class="list-of-authors">by Samantha Brooke</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/world-tour.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/world-tour.jpg"/>
- <div class="text-items">
-       <p class="time">April 7th 2020</p>
-       <h4>World Tour 2019</h4>
-       <p class="list-of-authors">by Timothy Wagner</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/unforeseen-corners.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/unforeseen-corners.jpg"/>
- <div class="text-items">
-       <p class="time">April 3rd 2020</p>
-       <h4>Unforeseen Corners</h4>
-       <p class="list-of-authors">by William Malcolm</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/king-on-africa.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/king-on-africa.jpg"/>
- <div class="text-items">
-       <p class="time">March 29th 2020</p>
-       <h4>King on Africa: Part II</h4>
-       <p class="list-of-authors">by Tim Hillenburg</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/trip-to-nowhere.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/trip-to-nowhere.jpg"/>
- <div class="text-items">
-       <p class="time">March 21st 2020</p>
-       <h4>The Trip to Nowhere</h4>
-       <p class="list-of-authors">by Felicia Rourke</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/rage-of-the-sea.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/rage-of-the-sea.jpg"/>
- <div class="text-items">
-       <p class="time">March 19th 2020</p>
-       <h4>Rage of The Sea</h4>
-       <p class="list-of-authors">by Mohammed Abdul</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/running-free.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/running-free.jpg"/>
- <div class="text-items">
-       <p class="time">March 16th 2020</p>
-       <h4>Running Free</h4>
-       <p class="list-of-authors">by Michelle</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/behind-the-waves.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/behind-the-waves.jpg"/>
- <div class="text-items">
-       <p class="time">March 11th 2020</p>
-       <h4>Behind the Waves</h4>
-       <p class="list-of-authors">by Lamarr Wilson</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/calm-waters.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/calm-waters.jpg"/>
- <div class="text-items">
-       <p class="time">March 9th 2020</p>
-       <h4>Calm Waters</h4>
-       <p class="list-of-authors">by Samantha Brooke</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/milky-way.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/milky-way.jpg"/>
- <div class="text-items">
-       <p class="time">March 5th 2020</p>
-       <h4>The Milky Way</h4>
-       <p class="list-of-authors">by Benjamin Cruz</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/dark-forest.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/dark-forest.jpg"/>
- <div class="text-items">
-       <p class="time">March 4th 2020</p>
-       <h4>Night at The Dark Forest</h4>
-       <p class="list-of-authors">by Mohammed Abdul</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/somwarpet.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/somwarpet.jpg"/>
- <div class="text-items">
-       <p class="time">March 1st 2020</p>
-       <h4>Somwarpet’s Beauty</h4>
-       <p class="list-of-authors">by Michelle</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-<div class="story-box"> 
-  <img class="mobile-pictures" src="../../assets/stories/mobile/land-of-dreams.jpg"/>
-  <img class="tablet-pictures" src="../../assets/stories/desktop/land-of-dreams.jpg"/>
- <div class="text-items">
-       <p class="time">February 25th 2020</p>
-       <h4>Land of Dreams</h4>
-       <p class="list-of-authors">by William Malcolm</p>
-      <div class="line"> 
-     </div>
-     <div class="link"> 
-     <a href="index.html" class="invite-link invite-link-black">READ STORY</a>
-     <img class="small-arrow" src="../../assets/shared/desktop/arrow.svg"/>
-   </div>
- </div>
-</div>
-</section>
-  </body>
+    <script src="../../app.js"></script>
+</body>
+
 </html>
