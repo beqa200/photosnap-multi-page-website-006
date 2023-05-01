@@ -1,239 +1,60 @@
-* {
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  overflow-x: hidden;
-  width: 100%;
-  height: 100vh;
-  background-color: #ffffff;
-}
-.first-section {
-  display: flex;
-  flex-direction: column;
-}
-.mobile-version {
-  width: 100%;
-  height: auto;
-}
-.main-contant {
-  padding-top: 48px;
-  padding-left: 29px;
-  color: #ffffff;
-  background-color: #000000;
-  width: 100%;
-  height: 495px;
-}
-.featured-story {
-  font-family: DMSans-Regular;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 2px;
-}
-.main-contant h1 {
-  padding-top: 16px;
-  font-family: DMSans-Bold;
-  letter-spacing: 3.33333px;
-}
-.date-and-author {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  padding-top: 16px;
-}
-.date {
-  font-family: DMSans-Regular;
-  opacity: 0.75;
-  font-size: 13px;
-}
-.author {
-  font-family: DMSans-Regular;
-  font-size: 13px;
-}
-.paragraph {
-  opacity: 0.6;
-  font-family: DMSans-Regular;
-  font-size: 15px;
-  line-height: 25px;
-  width: 318px;
-  padding-top: 24px;
-  padding-bottom: 16px;
-}
-a {
-  font-family: DMSans-Medium;
-  letter-spacing: 2px;
-  color: #ffffff;
-}
-a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-  transition: 0.5s;
-}
-.arrow {
-  width: 42px;
-  height: 12px;
-  filter: invert(98%) sepia(0%) saturate(300%) hue-rotate(318deg)
-    brightness(118%) contrast(100%);
-  margin-left: 16px;
-  padding-top: 4px;
-}
-.flex-items {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-.story-box {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-}
-.story-box {
+.baner {
   position: relative;
+  color: white;
   width: 100%;
-  height: auto;
-  z-index: 3;
-}
-.story-box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.0001) 0.27%,
-    rgba(0, 0, 0, 0.661222) 100%
-  );
-}
-.story-box:hover::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 6px;
-  background: linear-gradient(2deg, #ffc593 0%, #bc7198 43.29%, #5a77ff 83.33%);
-}
-.text-items {
-  position: absolute;
-  padding-left: 41.65px;
-  margin-top: 45%;
-  color: #ffffff;
-  z-index: 1;
-}
-.time {
   font-family: DMSans-Regular;
-  font-size: 13px;
-  line-height: 17px;
-  margin-top: 50px;
 }
-.text-items h4 {
-  font-family: DMSans-Bold;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  padding-top: 4px;
+
+.baner-img {
+  width: 100%;
+  min-height: 650px;
+  object-fit: cover;
 }
-.list-of-authors {
-  font-family: DMSans-Regular;
-  font-size: 13px;
-  line-height: 17px;
-  padding-top: 4px;
-  padding-bottom: 16px;
-}
-.line {
-  border-top: 1px solid #ffffff;
-  width: 280px;
-  padding-bottom: 16px;
-}
-.link {
+
+.bener-text {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  max-width: 330px;
+  position: absolute;
+  top: 20%;
+  left: 60px;
 }
-a {
-  font-family: DMSans-Regular;
-  letter-spacing: 2px;
-  font-size: 12px;
-  line-height: 16px;
+
+.bener-text h1 {
+  font-size: 40px;
+  margin: 20px 0px;
 }
-.small-arrow {
-  width: 42px;
-  height: 14px;
-  filter: invert(98%) sepia(0%) saturate(300%) hue-rotate(318deg)
-    brightness(118%) contrast(100%);
-  padding-top: 4px;
+
+.bener-text span {
+  opacity: 60%;
 }
-.tablet-pictures {
-  display: none;
+
+.bener-text p:nth-child(4) {
+  opacity: 60%;
+  line-height: 25px;
+  margin: 20px 0px;
 }
-.desktop-version {
-  display: none;
+
+.bener-text a {
+  display: inline-block;
+  color: white;
+  margin-right: 10px;
 }
-/* ------tablet-version------- */
-@media (min-width: 768px) {
-  .mobile-version {
-    display: none;
-  }
-  .mobile-pictures {
-    display: none;
-  }
-  .first-section {
-    background-image: url(../../assets/stories/tablet/moon-of-appalacia.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 650px;
-    position: relative;
-  }
-  .main-contant {
-    background-color: transparent;
-    padding-top: 17%;
-    margin-left: 28px;
-    position: absolute;
-  }
-  .flex-items {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .tablet-pictures {
-    display: block;
-    width: 100%;
-    height: 500px;
-    box-sizing: border-box;
-  }
-  .story-box {
-    width: 50%;
-  }
-  .story-box:hover {
-    transform: translateY(-24px);
-  }
-  .text-items {
-    padding-left: 42px;
-  }
-  .text-items h4 {
-    font-size: 18px;
-    line-height: 25px;
-  }
-  .line {
-    width: 280px;
-  }
+
+
+/* after hover linie animation */
+
+.bener-text a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f8f6f6;
+  transition: width .3s;
 }
-/* ------desktop version------ */
-@media (min-width: 1440px) {
-  .tablet-pictures {
-    width: 360px;
-    height: 500px;
-    box-sizing: border-box;
-  }
-  .story-box {
-    width: fit-content;
-  }
-  .text-items {
-    margin-top: 70%;
-  }
+
+.bener-text a:hover::after {
+  width: 100%;
 }
