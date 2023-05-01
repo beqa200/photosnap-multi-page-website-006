@@ -55,6 +55,7 @@ hr {
 
 nav {
   margin: 0 15px;
+  z-index: 2;
 }
 
 nav ul {
