@@ -85,6 +85,8 @@
 
 .story-link {
   color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 .story-link::after {
