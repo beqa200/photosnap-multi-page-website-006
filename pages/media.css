@@ -99,5 +99,13 @@
             width: 100%;
             height: auto;
         }
+
+        .gradient-border:before {
+            left: 30px;
+            top: 0;
+            border-top: 7px solid #726E97;
+            border-left: none;
+            width: 50%;
+        }
     }
 }

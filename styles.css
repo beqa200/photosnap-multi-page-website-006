@@ -120,6 +120,20 @@
   justify-content: center;
 }
 
+.gradient-border {
+  position: relative;
+}
+
+.gradient-border:before {
+  content: "";
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 25%;
+  height: 50%;
+  border-left: 7px solid #726E97;
+}
+
 .double {
   width: 60%;
 }

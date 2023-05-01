@@ -194,7 +194,7 @@ footer {
   opacity: 50%;
 }
 
-.section a {
+a {
   display: inline-block;
   color: white;
   margin-right: 10px;
@@ -203,7 +203,7 @@ footer {
 
 /* after hover linie animation */
 
-.section a::after {
+a::after {
   content: '';
   display: block;
   width: 0;
@@ -212,7 +212,7 @@ footer {
   transition: width .3s;
 }
 
-.section a:hover::after {
+a:hover::after {
   width: 100%;
 }
 
