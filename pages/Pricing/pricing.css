@@ -58,6 +58,7 @@ td {
   display: flex;
   flex-direction: column;
   gap: 64px;
+  background-color: white;
 }
 
 .hero-mob {
