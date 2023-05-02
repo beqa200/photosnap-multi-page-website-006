@@ -348,7 +348,7 @@ h2 {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 0;
+    padding: 0 17% 0 10%;
   }
   .bot-line {
     width: 6px;
@@ -356,8 +356,8 @@ h2 {
     left: 0;
   }
   .beta-box h1 {
-    font-size: 40px;
-    width: 55%;
+    font-size: 35px;
+    width: 66%;
   }
   .mob-table {
     display: none;
@@ -424,10 +424,11 @@ h2 {
     background-image: url(../../assets/shared/desktop/bg-beta.jpg);
     justify-content: space-around;
     gap: 20%;
+    padding: 0 16% 0 13%;
   }
   .beta-box h1 {
     font-size: 40px;
-    width: 30%;
+    width: 40%;
   }
   .sec-box {
     height: 470px;

@@ -127,11 +127,6 @@
   filter: brightness(0) invert(1);
 }
 
-/*////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////
-                                 @media (min-width: 768px) 
-///////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media (min-width: 768px) {
   .features-mob {
     display: none;
@@ -171,7 +166,8 @@
     background-repeat: no-repeat;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 17% 0 10%;
   }
   .bot-line {
     width: 6px;
@@ -179,15 +175,11 @@
     left: 0;
   }
   .beta-box h1 {
-    font-size: 40px;
-    width: 50%;
+    font-size: 35px;
+    width: 66%;
   }
 }
-/*////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////
-                                 @media (min-width: 768px) 
-///////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 @media (min-width: 1440px) {
   .features-tab {
     display: none;
@@ -199,9 +191,10 @@
     background-image: url(../../assets/shared/desktop/bg-beta.jpg);
     justify-content: space-around;
     gap: 20%;
+    padding: 0 16% 0 13%;
   }
   .beta-box h1 {
     font-size: 40px;
-    width: 30%;
+    width: 40%;
   }
 }
