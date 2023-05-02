@@ -36,7 +36,14 @@ hr {
   border: none;
 }
 
+body {
+  background-image: url(/assets/shared/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .main {
+  padding-top: 50px;
   width: 100%;
 }
 
@@ -51,6 +58,7 @@ hr {
   align-items: center;
   height: 75px;
   padding: 0 8%;
+  background-color: white;
 }
 
 nav {
