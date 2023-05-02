@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./photosnap-multi-page-website-006-1/assets/preview.jpg)
+![](./assets/preview.jpg)
 
 ### Getting Started
 
