@@ -103,8 +103,10 @@
         .gradient-border:before {
             left: 30px;
             top: 0;
-            border-top: 7px solid #726E97;
+            border-image: linear-gradient(26.57deg, #ffc593 50%, #bc7198 53.29%, #5a77ff 93.33%) 1;
             border-left: none;
+            border-right: none;
+            border-bottom: none;
             width: 50%;
         }
     }
