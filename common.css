@@ -180,6 +180,7 @@ footer {
   display: flex;
   background-color: black;
   justify-content: space-around;
+  align-items: center;
   min-height: 250px;
   color: white;
 }
