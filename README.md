@@ -64,4 +64,4 @@ git clone https://github.com/beqa200/photosnap-multi-page-website-006.git
 
 ## Acknowledgments
 
-We would like to give a big credit to our mentor, Beqa Maisuradze (https://www.linkedin.com/in/beka-maisuradze-76a730234/) who helped us to solve many issues during this project.
+We would like to give a big credit to our mentor, [Beqa Maisuradze](https://www.linkedin.com/in/beka-maisuradze-76a730234/) who helped us to solve many issues during this project.
