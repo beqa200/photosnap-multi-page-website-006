@@ -78,3 +78,16 @@
 .item h3 {
   margin: 15px 0;
 }
+
+.feature-invite {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.feature-invite img {
+  width: 100%;
+  min-height: 250px;
+  object-fit: cover;
+  display: block;
+}
