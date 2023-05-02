@@ -21,13 +21,6 @@
   position: relative;
 }
 
-.story h1 {
-  font-family: DMSans-Bold;
-  line-height: 40px;
-  letter-spacing: 3.3px;
-  color: #ffffff;
-}
-
 .gradient-border:before {
   content: "";
   z-index: 0;
@@ -38,7 +31,6 @@
   border-style: solid;
   border-width: 4px;
   border-image: linear-gradient(26.57deg, #ffc593 0%, #bc7198 43.29%, #5a77ff 83.33%) 1;
-
 }
 
 .double {
@@ -89,10 +81,6 @@
 
 .feature-invite {
   position: relative;
-  gap: 24px;
-  height: 280px;
-  padding-left: 33px;
-  padding-right: 33px;
   text-align: center;
   color: white;
 }
@@ -119,76 +107,3 @@
 .invite-wrapper h1 {
   max-width: 220px;
 }
-
-@media (min-width: 768px) {
-  .features-mob {
-    display: none;
-  }
-
-  .features-tab {
-    display: block;
-  }
-  .box {
-    flex-direction: row-reverse;
-    height: 100%;
-  }
-  .story {
-    height: 490px;
-  }
-  .story h1 {
-    font-size: 40px;
-  }
-  .line {
-    width: 6px;
-    height: 144px;
-    left: 0;
-    top: 35%;
-  }
-  .media-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    padding: 15% 0 15% 0;
-  }
-  .responsiv p {
-    width: 340px;
-  }
-  .beta-box {
-    background-image: url(../../assets/shared/tablet/bg-beta.jpg);
-    background-repeat: no-repeat;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 0 17% 0 10%;
-  }
-  .bot-line {
-    width: 6px;
-    height: 280px;
-    left: 0;
-  }
-  .beta-box h1 {
-    font-size: 35px;
-    width: 66%;
-  }
-}
-
-@media (min-width: 1440px) {
-  .features-tab {
-    display: none;
-  }
-  .features-desk {
-    display: block;
-  }
-  .beta-box {
-    background-image: url(../../assets/shared/desktop/bg-beta.jpg);
-    justify-content: space-around;
-    gap: 20%;
-    padding: 0 16% 0 13%;
-  }
-  .beta-box h1 {
-    font-size: 40px;
-    width: 40%;
-  }
-}
-
