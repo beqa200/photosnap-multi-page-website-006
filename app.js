@@ -6,7 +6,9 @@ menuBtn.addEventListener('click', () => {
     menuIcon[0].classList.toggle('rotateX')
     menuIcon[1].classList.toggle('rotateY')
     nav.classList.toggle('is-active')
+    nav.classList.toggle('open-animation')
 })
+
 
 const cardsData = [{
     card1: {
