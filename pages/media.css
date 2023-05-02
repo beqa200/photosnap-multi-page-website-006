@@ -1,4 +1,12 @@
 @media screen and (max-width: 1000px) {
+    body {
+        background-image: none;
+    }
+
+    .main {
+        padding-top: 0px
+    }
+
     header {
         padding: 0 4%;
     }
@@ -9,6 +17,23 @@
 
     .card {
         width: 50%;
+    }
+
+    .info-container>.item {
+        flex: 1 1 50%;
+    }
+
+    .top-left {
+        position: absolute;
+        top: 2%;
+        left: 30%;
+        width: 250px;
+    }
+
+    .top-right {
+        position: absolute;
+        top: 50%;
+        right: 35%
     }
 }
 
@@ -47,34 +72,71 @@
     .section {
         justify-content: space-evenly;
     }
-}
 
-@media screen and (max-width: 420px) {
-    .card {
-        width: 100%;
-        height: auto;
+    .info-container>.item {
+        flex: 1 1 100%;
     }
 
-    .card img {
-        min-height: 100%;
-        height: 375px;
-        object-fit: cover;
-    }
+    @media screen and (max-width: 420px) {
+        .card {
+            width: 100%;
+            height: auto;
+        }
 
-    .bener-text {
-        padding: 20px 30px;
-        position: static;
-        height: 500px;
-        min-width: 100%;
-        background-color: black;
-    }
+        .card img {
+            min-height: 100%;
+            height: 375px;
+            object-fit: cover;
+        }
 
-    .bener-text h1 {
-        font-size: 30px;
-    }
+        .bener-text {
+            padding: 20px 30px;
+            position: static;
+            height: 500px;
+            min-width: 100%;
+            background-color: black;
+        }
 
-    .baner-img {
-        width: 100%;
-        min-height: 310px;
+        .bener-text h1 {
+            font-size: 30px;
+        }
+
+        .baner-img {
+            width: 100%;
+            min-height: 310px;
+        }
+
+        .row {
+            flex-direction: column;
+        }
+
+        .small {
+            order: 1;
+            width: 100%;
+        }
+
+        .double {
+            width: 100%
+        }
+
+        #content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .img {
+            width: 100%;
+            height: auto;
+        }
+
+        .gradient-border:before {
+            left: 30px;
+            top: 0;
+            border-image: linear-gradient(26.57deg, #ffc593 50%, #bc7198 53.29%, #5a77ff 93.33%) 1;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            width: 50%;
+        }
     }
 }

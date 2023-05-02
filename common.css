@@ -36,7 +36,15 @@ hr {
   border: none;
 }
 
+body {
+  background-image: url(/assets/shared/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .main {
+  padding-top: 50px;
   width: 100%;
 }
 
@@ -51,6 +59,7 @@ hr {
   align-items: center;
   height: 75px;
   padding: 0 8%;
+  background-color: white;
 }
 
 nav {
@@ -172,6 +181,7 @@ footer {
   display: flex;
   background-color: black;
   justify-content: space-around;
+  align-items: center;
   min-height: 250px;
   color: white;
 }
@@ -194,7 +204,7 @@ footer {
   opacity: 50%;
 }
 
-.section a {
+a {
   display: inline-block;
   color: white;
   margin-right: 10px;
@@ -203,7 +213,7 @@ footer {
 
 /* after hover linie animation */
 
-.section a::after {
+a::after {
   content: '';
   display: block;
   width: 0;
@@ -212,7 +222,7 @@ footer {
   transition: width .3s;
 }
 
-.section a:hover::after {
+a:hover::after {
   width: 100%;
 }
 
